@@ -21,8 +21,9 @@
 }
 
 @media (max-width:768px) {
-  .preview-content { text-align: center;
-}
+  .preview-content {
+    text-align: center;
+  }
 }
 
 .notes-content{
@@ -41,7 +42,7 @@
     width: 56%;
     display: inline-block;
     flex-grow: 1
-  }
+}
 
 .notes-content__task-row-wrapper {
   display: flex;
