@@ -111,7 +111,6 @@
 /* New Task */
 .task-title {
   display: block;
-  margin: 0 0 20px;
 }
 
 .notes-content__task-row-wrapper:first-child(0) {
