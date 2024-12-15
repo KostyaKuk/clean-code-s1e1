@@ -48,16 +48,19 @@
   display: flex;
 }
 
-.incomplete-list, .complete-list{
+.incomplete-list,
+.complete-list {
   margin: 0;
   padding: 0px;  
 }
 
-.task-list, .task-title {
+.task-list,
+.task-title {
   list-style: none;
 }
 
-.notes-content__input, .task-item__checkbox {
+.notes-content__input,
+.task-item__checkbox {
   outline: none;
 }
 
@@ -153,21 +156,25 @@
 }
 
 /* Completed */
-.complete-list {
+.complete-list
+.task-item__label {
   text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
-.task-list .notes-content__input {
+.task-list
+.notes-content__input {
   display: none;
 }
 
-.editMode .notes-content__input {
+.editMode
+.notes-content__input {
   display: inline-block;
   width: 224px;
 }
 
-.editMode .task-item__label {
+.editMode
+.task-item__label {
   display: none;
 }
